@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+    <!--Font Awesome Icon-->
+  <script src="https://kit.fontawesome.com/5673f53053.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+    <!--JavaScript-->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="containerContent">
+      <div class="header">
+        <p id="time"></p>
+        <h1>CURRENT WEATHER</h1>
+        <div class="searchBar">
+          <input type="text" id="searchInput" placeholder="Enter city name ... " >
+          <button id="searchButton" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </div>
+      <div id="main-content">
+        <div class="city"></div>
+        <div class="temp"></div>
+        <div class="desc"></div>
+        <div class="minmax"></div>
+      </div>
+    </div>
+  </div>
+

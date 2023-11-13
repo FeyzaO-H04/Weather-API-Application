@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("city2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1000px;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+}
+
+.containerContent{
+  width:1000px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.header{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.header h1{
+  color: orange;
+  font-size: 40px;
+  text-shadow: 1px 3px rgba(0,0,0,.9);
+  margin-right: 50px;
+}
+
+#time{
+  width: 250px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid orange;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 250px;
+}
+
+#searchInput{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+#searchInput::placeholder { 
+  color: white;
+}
+
+#searchButton{
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+#main-content{
+  text-align: center;
+  color: white;
+}
+
+.city{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-shadow: 1px 2px rgba(0,0,0,.8);
+}
+
+.temp{
+  font-size: 90px;
+  font-weight: 700;
+  text-shadow: 1px 3px rgba(0,0,0,1);
+  margin-bottom: 15px;
+}
+
+.desc{
+  font-size: 23px;
+  font-style: italic;
+  text-shadow: 1px 2px rgba(0,0,0,.8);
+  margin-bottom: 10px;
+}
+
+.minmax{
+  font-size: 22px;
+  text-shadow: 1px 2px rgba(0,0,0,.8);
+}
+
+
+
+
